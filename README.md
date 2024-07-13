@@ -16,6 +16,7 @@ Good code can be described by two characteristics:
   - ***Space Complexity***: Refers to the amount of memory space an algorithm requires to execute in relation to the input size. 
   <br>
   What causes space complexity? 
+  <br>
     - Variables
     - Data Structures
     - Function Call
@@ -62,11 +63,12 @@ You can check `Example #1` in `BigO.js` for using `performance` for measuring.
 - We can round down even O(100) to just O(1) because it's constant.
 - You can check `Example #4` in `BigO.js` for O(2), which we will count as O(1) in calculating Big O.
 
+<br>
 
 ### O(n^2) :
-- In nested loops instead of adding the different inputs we are multipying the loops. We are using one variable of (n) and the Big O is O(n*n) which means O(n^2). 
 - This O(n^2) is called quadratic time. 
 - This Big O is horrible.
+- In nested loops instead of adding the different inputs we are multipying the loops. We are using one variable of (n) and the Big O is O(n*n) which means O(n^2). 
 Check `Example #5` in `BigO.js` file.
 <div style="display: flex; width: 500px; justify-content: center;">
   <img src="./images/O(n^2) graph.png" alt="O(1) graph">
