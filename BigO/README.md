@@ -7,8 +7,6 @@ We want to know when we increase the input size, how much more time the algorith
 While we can measure the performance of code using `performance`, due to variations in the power of CPUs in different computers, the better way for measuring performance is using Big O notation.
 <br>
 
-You can check `Example #1` for using `performance` for measuring.
-
 ```
 Example #1 : Using Performance
 As the size of input is increasing the code is running slower and slower:
@@ -44,9 +42,7 @@ findNemo(largeArray);
 - The first type of Big O notation is O(n).
 - O(n) is the most common one.
 - It is called Linear Time, which means that as the input size increases, the number of operations increases linearly.
-<br>
-
-You can check `Example #2` for O(n).
+  <br>
 
 ```
 Example #2 : O(n)
@@ -75,9 +71,7 @@ findNemo(bigArray);
 - O(1) is an excellent Big O notation.
 - It is called Constant Time.
 - It means that the number of operations is constant. As the input size increases, the number of operations remains the same.
-<br>
-
-You can check `Example #3` for O(1).
+  <br>
 
 ```
 Example #3 : O(1)
@@ -96,9 +90,7 @@ compressFirstBox(boxesArray);
 <br>
 
 - We can round down even O(100) to just O(1) because it's constant.
-<br>
-
-You can check `Example #4` for O(2), which we will count as O(1) in calculating Big O.
+  <br>
 
 ```
 Example #4 : Round down O(2) to O(1)
@@ -117,9 +109,7 @@ const printFirstTwoBoxes = (boxes) => {
 - This O(n^2) is called quadratic time.
 - This Big O is horrible.
 - In nested loops instead of adding the different inputs we are multipying the loops. We are using one variable of (n) and the Big O is O(n\*n) which means O(n^2).
-<br>
-
-Check `Example #5`
+  <br>
 
 ```
 Example #5 : O(n^2) :
@@ -148,8 +138,6 @@ printAllArrayPairs(boxes);
   Means we have to think about the worst scenario.
   <br>
 
-  Check `Example #6`
-
 ```
 Example #6 : Worst Case:
 nemo is in the last. although we have the (break) statement but in the worst case the function will run (n) times.
@@ -170,10 +158,8 @@ findNemo(everyone2);
 ```
 
 - ### Rule #2 - Remove Constants :
-Means we have to remove all the numbers as they do not have so much of effect when the input size is so large.
-<br>
-
-  Check `Example #7`
+  Means we have to remove all the numbers as they do not have so much of effect when the input size is so large.
+  <br>
 
 ```
 Example #7 : Remove Constants :
@@ -197,8 +183,6 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 - ### Rule #3 - Different terms for inputs :
   Means we have to think about the different inputs. It Means different inputs should have different variables. If the loops were coming one after another we are simply adding, but if loops were nested we are multiplying.
   <br>
-
-  Check `Example #8` and `Example #9`.
 
 ```
 Example #8 : Different Terms for input : adding :
@@ -232,8 +216,6 @@ const compressBoxes2 = (boxes1, boxes2) => {
 - ### Rule #4 : Drop Non Dominants :
   Means we are removing the terms that are not the most important and keeping the one which is the most dominant.
   <br>
-  
-  Check `Example #10`
 
 ```
 Example #10 : Drop non dominant terms :
