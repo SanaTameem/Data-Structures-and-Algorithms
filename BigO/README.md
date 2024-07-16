@@ -32,7 +32,7 @@ findNemo(largeArray);
 ```
 
 <div style="display: flex; width: 500px; justify-content: center;">
-  <img src="../images/Big-O chart.png" alt="Big O chart">
+  <img src="../images/Big-O chart.png" alt="Big O chart" style="width: 100%">
 </div>
 
 ## Types of Big O
@@ -62,7 +62,7 @@ findNemo(bigArray);
 ```
 
 <div style="display: flex; width: 500px; justify-content: center;">
-  <img src="../images/O(n) graph.png" alt="O(n) graph">
+  <img src="../images/O(n) graph.png" alt="O(n) graph" style="width: 100%">
 </div>
 
 ### O(1)
@@ -85,7 +85,7 @@ compressFirstBox(boxesArray);
 ```
 
 <div style="display: flex; width: 500px; justify-content: center;">
-  <img src="../images/O(1) graph.png" alt="O(1) graph">
+  <img src="../images/O(1) graph.png" alt="O(1) graph" style="width: 100%">
 </div>
 <br>
 
@@ -129,7 +129,7 @@ printAllArrayPairs(boxes);
 ```
 
 <div style="display: flex; width: 500px; justify-content: center;">
-  <img src="../images/O(n^2) graph.png" alt="O(1) graph">
+  <img src="../images/O(n^2) graph.png" alt="O(1) graph" style="width: 100%">
 </div>
 
 ## Big O Rule Book:
