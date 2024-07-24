@@ -6,6 +6,24 @@ An algorithm is a step-by-step procedure or set of rules designed to perform a s
 
 Data structures are specialized formats for organizing, processing, and storing data. They enable efficient access and modification of data. Common data structures include arrays, linked lists, stacks, queues, trees, and graphs.
 
+## Operations on Data Structures:
+- **Access:** 
+Retrieving or reading the value stored in a specific position within the data structure.
+Search:
+
+- **Insertion:** Adding a new value into the data structure.
+
+- **Deletion**: Removing a value from the data structure.
+
+- **Updation:** Modifying an existing value in the data structure.
+
+- **Traversal:** Visiting all the elements of the data structure in a systematic order.
+
+- **Search:** Finding the presence of a specific value in the data structure.
+
+- **Sorting:** Arranging the elements of the data structure in a specified order (e.g., ascending or descending).
+
+
 ## Characteristics of good code :
 
 Good code can be described by two characteristics:
